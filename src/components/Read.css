@@ -1,0 +1,87 @@
+.container {
+    background-color: #1e90ff; 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+  }
+  
+  .home-button {
+    background-color: #28a745; 
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  
+  .home-button:hover {
+    background-color: #218838; 
+  }
+  
+  .items-container {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .item-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* display: flex; */
+  }
+  
+  .item-card p {
+    margin: 5px 0;
+  }
+  
+  .buttons {
+    margin-top: 10px;
+  }
+  
+  .update-button {
+    background-color: #007bff; 
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  
+  .update-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .delete-button {
+    background-color: #dc3545; /* Red background for the delete button */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+  }
+  .black{
+    margin-bottom: 10px;
+    color: black;
+  }
